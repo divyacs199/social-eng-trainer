@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #00ff9c;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+select, button {
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background: #00ff9c;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00cc7a;
+}
+
+.output-box {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #00ff9c;
+  min-height: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background: #161b22;
+}
